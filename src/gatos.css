@@ -1,0 +1,143 @@
+
+* {
+    padding: 20;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   background-image: url("fondogatitos.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
+    font-family: 'calibri';
+  }
+   
+  header {
+    background:transparent;
+    width: 100%;
+    height: 144px;
+    overflow:hidden; 
+    padding: 0px 0px;;
+	
+  }
+  img{
+    width: 230px;
+    float: left;
+    padding: 1px;
+    margin-left: -480px;
+    margin-top: -5px;
+  
+  }
+  .menu {
+    
+    width: 900px;
+   float: right;
+    padding: 0px -10px;
+  }
+  
+
+  
+  nav {
+    
+    float: left;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  nav ul li {
+    
+    margin-right: 40px;
+    padding: 70px 0;
+    float: left;
+    position: relative;
+    
+  }
+  
+  nav ul li a {
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(137, 193, 245);
+    height: 5px;
+    top:0;
+    position: absolute;
+   
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  .buscar {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -300px;
+  }
+  
+  .buscar input {
+    width: 0;
+    height: 40px;
+    padding: 0 90px;
+    font-size: 18px;
+    color: rgb(137, 193, 245);
+    outline: none;
+    border: 1px solid rgb(137, 193, 245);
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.buscar input:focus {
+    width: 280px;
+  }
+li .gatolist{
+    list-style-type: circle;
+    color:rgb(0, 0, 0);
+    
+}
+
+li li .gatolist1 {
+    list-style-type: square;
+}
+
+b{
+    color:rgb(90, 129, 255);
+}
+
+.cuidarGato{
+    width:550px;
+    left: 65px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.entenderGato{
+    width:550px;
+    left:65px;
+    top: 550px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.videoarr{
+    width:550px;
+    left:690px;
+    top: 150px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.videoaraña{
+    width:560px;
+    left:690px;
+    top: 500px;
+    position: absolute;
+    overflow: hidden;
+}
